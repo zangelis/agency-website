@@ -1,0 +1,38 @@
+.text {
+    background-color: var(--bright-grey);
+}
+
+.text__container {
+    margin: 3rem auto;
+}
+
+.text h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text br {
+    content: " ";
+    display: block;
+    margin: 10px 0;
+}
+
+.text ul {
+    list-style-type: circle;
+    padding: 20px;
+}
+
+.text a {
+    color: var(--normal-green);
+}
+
+.text a:hover {
+    color: var(--dark-green);
+}
+
+@media screen and (min-width: 968px) {
+
+    .text__container {
+        max-width: 950px;
+    }
+}

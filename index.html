@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== GOOGLE FONTS ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Azubi Vietnam Recruiting</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="active nav__logo"><img src="assets/img/logo.png" alt="Azubi Vietnam Logo"></a>
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="html/azubis-finden.html" class="nav__link">Azubi finden</a>
+                </li>
+                <li class="nav__item">
+                    <a href="html/ausbildung-machen.html" class="nav__link">Ausbildung machen</a>
+                </li>
+                <li class="nav__item">
+                    <a href="html/unser-team.html" class="nav__link">Unser Team</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link btn" onclick="sendEmail();">Kontakt aufnehmen</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HERO ====================-->
+        <section class="hero">
+            <div class="overlay section">
+                <div class="hero__container container grid">
+                    <h1>Gemeinsam gegen den Fachkräftemangel</h1>
+                    <p>Wir bringen tolle Betriebe und motivierte Auszubildende zusammen.</p>
+                </div> 
+            </div>
+        </section>
+
+        <!--==================== PARTNERS ====================-->
+        <section class="partners section">
+            <div class="rectangle">
+                <h1 class="partners__heading">Unsere Partnerbetriebe:</h1>
+                <ul class="partners__list grid">
+                    <li><a href=""><img src="assets/img/logo.png" class="partners__logo" alt=""></a></li>
+                    <li><a href=""><img src="assets/img/logo.png" class="partners__logo" alt=""></a></li>
+                    <li><a href=""><img src="assets/img/logo.png" class="partners__logo" alt=""></a></li>
+                    <li><a href=""><img src="assets/img/logo.png" class="partners__logo" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--==================== SERVICE ====================-->
+        <section class="service section">
+            <div class="service__container container">
+                <div class="service__heading">
+                    <h1>Mit uns nach Deutschland</h1>
+                    <p>Der Weg nach Deutschland ist mit einigen Herausforderungen verknüpft, vor denen sowohl Auszubildende als auch Betriebe oft zurückschrecken. Hier nehmen wir Sie an die Hand, klären über jede einzelne Etappe auf und stellen sicher, dass vom Visumantrag bis hin zur Eingliederung ins Unternehmen alles reibungslos von Statten geht.</p>
+                </div>
+                <ul class="service__list">
+                    <li>
+                        <i class="uil uil-users-alt service__icon"></i>
+                        <h1>Vermittlung</h1>
+                        <p>Nach intensiver Prüfung der Bewerbungsunterlagen organisieren wir Vorstellungsgespräche zwischen den Kandidaten und den Betrieben.</p>
+                    </li>
+                    <li>
+                        <i class="uil uil-file-check-alt service__icon"></i>
+                        <h1>Visumantrag</h1>
+                        <p>Sollte unser Kandidat überzeugt haben, kümmert sich ein Vertreter von Azubi Vietnam um die Eröffnung eines Bankkontos, das Abschließen einer Versicherung und den Antrag des Visums.</p>
+                    </li>
+                    <li>
+                        <i class="uil uil-truck service__icon"></i>
+                        <h1>Relocation</h1>
+                        <p>Wir helfen nicht nur bei der Flugbuchung, sondern unterstützen auch bei der Wohnungssuche und sind ständiger Ansprechpartner bzgl. Integration.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--==================== JOBS ====================-->
+
+        <section class="jobs section">
+            <div class="jobs__container container">
+                <h1>In diesen Ausbildungsberufen herrscht Nachwuchsbedarf:</h1>
+                <ul class="jobs__list grid">
+                    <li>
+                        <a href="https://www.ausbildung.de/berufe/pflegefachmann/">
+                            <img src="assets/img/nurse.jpg" alt="">
+                            <h2 class="job__title">Pflegefachmann/-frau</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ausbildung.de/berufe/gesundheits-und-pflegeassistent/">
+                            <img src="assets/img/helper.jpg" alt="">
+                            <h2 class="job__title">Pflegeassistent/in</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ausbildung.de/berufe/hotelfachfrau/">
+                            <img src="assets/img/hotel.jpg" alt="">
+                            <h2 class="job__title">Hotelfachmann/-frau</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ausbildung.de/berufe/restaurantfachfrau/">
+                            <img src="assets/img/restaurant.jpg" alt="">
+                            <h2 class="job__title">Restaurantfachmann/-frau</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ausbildung.de/berufe/koch/">
+                            <img src="assets/img/chef.jpg" alt="">
+                            <h2 class="job__title">Koch/Köchin</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ausbildung.de/berufe/fachmann-systemgastronomie/">
+                            <img src="assets/img/mcs.jpg" alt="">
+                            <h2 class="job__title">Fachleute für Systemgastronomie</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--==================== CTA ====================-->
+        <section class="cta section">
+            <div class="cta__container container">
+                <h1 class="cta__heading">Nehmen Sie jetzt Kontakt auf</h1>
+                <p>Sie haben Interesse an einer Ausbildung in Deutschland? Oder Sie wollen gerne junge Menschen aus dem Ausland ausbilden, aber möchten diesen Schritt ungern alleine gehen? Zögern Sie nicht und machen Sie jetzt einen Termin mit uns aus. In einem unverbindlichen Gespräch klären wir Sie darüber auf, welche Voraussetzungen für eine Vermittlung erfüllt werden müssen und wie diese abläuft.</p>
+                <a href="#" class="btn cta__btn" onclick="sendEmail();">Kontakt aufnehmen</a>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials section">
+            <div class="testimonials__container container">
+                    <h1>Das sagen unsere Kandidaten und Partnerbetriebe</h1>
+                    <div>
+                        <ul class="testimonials__grid grid">
+                            <li>
+                                <div class="testimonial__card">
+                                    <ul>
+                                        <li>
+                                            <img class="card__picture" src="assets/img/unknown.jpg" alt="">
+                                            <h1 class="card__name">Person X</h1>
+                                            <p class="job__title">Berufsbeschreibung</p>
+                                            <h1 class="testimonials__sign">“</h1>
+                                            <p>Lorem ipsum donor sit amet, consectetur adipiscing elit, sed. Lorem ipsum donor sit amet, consectetur adipiscing elit, sed.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="testimonial__card">
+                                    <ul>
+                                        <li>
+                                            <img class="card__picture" src="assets/img/unknown.jpg" alt="">
+                                            <h1 class="card__name">Person X</h1>
+                                            <p class="job__title">Berufsbeschreibung</p>
+                                            <h1 class="testimonials__sign">“</h1>
+                                            <p>Lorem ipsum donor sit amet, consectetur adipiscing elit, sed. Lorem ipsum donor sit amet, consectetur adipiscing elit, sed.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="testimonial__card">
+                                    <ul>
+                                        <li>
+                                            <img class="card__picture" src="assets/img/unknown.jpg" alt="">
+                                            <h1 class="card__name">Person X</h1>
+                                            <p class="job__title">Berufsbeschreibung</p>
+                                            <h1 class="testimonials__sign">“</h1>
+                                            <p>Lorem ipsum donor sit amet, consectetur adipiscing elit, sed. Lorem ipsum donor sit amet, consectetur adipiscing elit, sed.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+
+        <!--==================== SUPPORT ====================-->
+        <section class="support section">
+            <div class="support__container container">
+                <h1>Unsere Mitarbeiter sind für Sie da</h1>
+                <h2 class="support__subtitle">Wir stehen Ihnen bei Fragen gern zur Seite.</h2>
+                <ul class="support__employees grid">
+                    <li>
+                        <img src="assets/img/employee-one.jpg" alt=""> <br>
+                        <a href="#" class="support__btn" onclick="sendEmail();">Mitarbeiter Eins</a>
+                    </li>
+                    <li>
+                        <img src="assets/img/employee-two.jpg" alt=""> <br>
+                        <a href="#" class="support__btn" onclick="sendEmail();">Mitarbeiter Zwei</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container grid container">
+            <div class="footer__logo">
+                <img src="assets/img/logo-footer.png" alt="">
+            </div>
+            <div class="footer__nav">
+                <h2>Über Azubi Vietnam</h2>
+                <ul>
+                    <li><a href="html/unser-team.html">Wer sind wir?</a></li>
+                    <li><a href="html/azubis-finden.html">Auszubildende finden</a></li>
+                    <li><a href="html/ausbildung-machen.html">Ausbildung machen</a></li>
+                </ul>
+            </div>
+            <div class="footer__policy">
+                <h2>Rechtliche Hinweise</h2>
+                <ul>
+                    <li><a href="html/datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+                    <li><a href="html/impressum.html">Impressum</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h2>Kontakt</h2>
+                <ul>
+                    <li><a href="#" onclick="sendEmail();">email@azubi-vietnam.com</a></li>
+                    <li><a href="#" onclick="callGermany();">+49 123 456 789</a></li>
+                    <li><a href="#" onclick="callVietnam();">+84 123 456 789</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="copyright">Made with Love by <a href="https://frontendpenguin.com/">FrontendPenguin</a></p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

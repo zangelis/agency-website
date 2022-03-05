@@ -1,0 +1,149 @@
+/*==================== HERO ====================*/
+
+.hero {
+    background: url("../img/hero-azubis-finden.jpg") no-repeat center/cover;
+    text-align: center;
+  }
+
+.hero__btn {
+    display: inline-block;
+}
+
+/*==================== REVIEW ====================*/
+.review {
+    text-align: center;
+    background-color: var(--bright-green);
+}
+
+.review img {
+    border-radius: 10px;
+}
+
+.review p {
+    max-width: 495px;
+    display: inline-block;
+}
+
+.review__person {
+    color: var(--dark-blue);
+}
+
+/*==================== STEPS TO GERMANY ====================*/
+.steps {
+    text-align: center;
+}
+
+.steps img {
+    border-radius: 10px;
+}
+
+.steps__list {
+    display: inline-block;
+    max-width: 495px;
+}
+
+.steps__list li {
+    margin-bottom: 1rem;
+}
+
+.steps__heading {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-family: var(--font-semi-bold);
+    margin: 0;
+}
+
+/*==================== CTA ====================*/
+
+.cta {
+    text-align: center;
+    background-color: var(--bright-grey);
+}
+
+/*==================== MEDIA QUERIES ====================*/
+
+@media screen and (min-width: 968px) {
+
+    /*==================== HERO ====================*/
+    .hero__container {
+        max-width: 424px;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .hero h1 {
+        line-height: 2.5rem;
+    }
+
+    /*==================== SERVICE ====================*/
+    .service__list {
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 900px;
+        margin: 2rem auto;
+    }
+
+    /*==================== REVIEW ====================*/
+    .review ul {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    .review img {
+        margin-right: 10px;
+    }
+
+    .review p {
+        margin-left: 10px;
+    }
+
+    .review h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    /*==================== STEPS TO GERMANY ====================*/
+    .steps__parent {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .steps img {
+        margin-left: 10px;
+    }
+
+    .steps .steps__list {
+        margin-right: 10px;
+    }
+
+    .steps h1 {
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+  
+}
+
+@media screen and (min-width: 1450px) {
+
+    /*==================== HERO ====================*/
+    .hero__container {
+        margin-left: 15%;
+        margin-top: 200px;
+    }
+
+    /*==================== TESTIMONIALS ====================*/
+  
+    .service__list {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1212px;
+        margin: 2rem auto;
+      }
+
+  
+  }
